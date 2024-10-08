@@ -17,10 +17,12 @@ public class Solution {
                     return 1;
                 }
             }
-            else if(A.charAt(i)=='+' || A.charAt(i)=='-' || A.charAt(i)=='*' || A.charAt(i)=='/' || A.charAt(i)==){
+            else if(A.charAt(i)=='+' || A.charAt(i)=='-' || A.charAt(i)=='*' || A.charAt(i)=='/' || A.charAt(i)=='('){
                 stack.push(A.charAt(i));
             }
-        }
-        return result;
     }
-}
+            return result;
+        }
+        
+    }
+
